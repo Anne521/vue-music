@@ -1,5 +1,5 @@
 <template>
-    <scroll class="listview" :data="data" >
+    <scroll class="listview" :data="data" ref="">
       <ul>
         <li v-for="group in data" class="list-group">
           <h2 class="list-group-title">{{group.title}}</h2>
